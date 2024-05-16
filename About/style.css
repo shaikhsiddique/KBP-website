@@ -1,0 +1,114 @@
+
+        /* Custom CSS for additional styling */
+        body {
+            background: linear-gradient(to right, #e0dad9, #2f2e2e);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            overflow-x: hidden; /* Hide horizontal scrollbar caused by animation */
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .navbar {
+            background-color: #343a40;
+            border-bottom: 2px solid #ffc107;
+        }
+
+        .navbar-brand {
+            color: #ffc107;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .navbar-brand:hover {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107;
+        }
+
+        .about-card {
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            background-color: #fff;
+        }
+
+        .about-img {
+            max-width: 100%;
+            border-radius: 15px;
+        }
+
+        .about-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        .about-content {
+            color: #555555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .contact-btn {
+            background-color: #ffc107;
+            color: #343a40;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-btn:hover {
+            background-color: #ffcd39;
+            color: #343a40;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #fff;
+        }
+
+        /* Animations */
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-timing-function: ease-in-out;
+        }
+
+        .slideInRight {
+            animation-name: slideInRight;
+        }

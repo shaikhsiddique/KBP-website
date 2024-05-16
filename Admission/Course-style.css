@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    overflow-y: auto;
+    margin-bottom: 100px !important;
+}
+
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+.ptr-header{
+    margin-top: 50px !important;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add margin to separate table from other content */
+    padding-left: 30px;
+    padding-right: 30px !important;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for better readability */
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000; /* Dark black background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+

@@ -1,0 +1,129 @@
+
+.jumbotron {
+  height: 600px;
+  color: #111;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.ptr-banner {
+  background-image: url('./images/slider-01.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 500px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.ptr-banner h1{
+  color: #111;
+  font-weight: 400;
+}
+.ptr-banner p{
+  padding-top: 100px;
+  color: #111;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.section-header {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.section-content {
+    padding: 40px 0;
+}
+ /* Additional CSS for animations */
+ @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+/* Additional CSS for section icons */
+.section-icon {
+  font-size: 48px;
+  color: #007bff; /* Change the color as needed */
+  margin-bottom: 20px;
+}
+
+/* Additional CSS for sections */
+.section-header, .section-content {
+  padding: 50px;
+  background-color: #f8f9fa; /* Light gray background color */
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.section-header h2, .section-content h2 {
+  color: #343a40; /* Dark gray text color */
+}
+
+.section-header p, .section-content p {
+  color: #6c757d; /* Medium gray text color */
+}
+
+.section-header .row, .section-content .row {
+  margin-top: 30px;
+}
+
+.section-header .col-md-6, .section-content .col-md-6 {
+  margin-bottom: 30px;
+}
+
+/* Additional CSS for footer */
+footer {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/* Additional CSS for complex design */
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.custom-section {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.custom-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    overflow-x: hidden;
+    cursor: pointer;
+    overflow-y: auto;
+}
+.ptr-nav{
+    padding-left: 100px;
+}
+.ptr-moto{
+    margin-left: 120px;
+}
+.ptr-moto a{
+    font-size: 20px;
+   
+}
+.nav-2{
+    margin-top: 30px;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ptr-logo{
+    height: 20vh;
+    width: 145px;
+    background-image: url('./images/logo.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ptr-data{
+    padding: 0;
+    margin: 0;
+}
+.ptr-data h1{
+    font-size: 30px;
+    color: brown;
+    line-height: 1.2;
+}
+.ptr-data p{
+    font-size: 18px;
+    line-height: 0.75;
+}
+.ptr-desgin{
+    margin-left: 30px;
+    display: flex;
+
+}
+.ptr-line1{
+    height: 13vh;
+    width: 3px;
+    background: rgb(229, 95, 95);
+    margin-bottom: 35px;
+    margin-right: 2px;
+}
+
+.ptr-line2{
+    height: 13vh;
+    width: 3px;
+    background: rgb(229, 95, 95);
+    margin-top: 35px;
+}
+.ptr-logo-con{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+.ptr-logo-con i{
+    font-size: 22px;
+    padding: 8px;
+}
+.ptr-photo{
+    height: 500px;
+    width: 100vw;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ptr-infromation{
+    height: 500px;
+    width: 100vw;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ptr-info-title{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ptr-info-title span{
+    font-size: 20px;
+    line-height: 1.2;
+}
+.ptr-info-title h1{
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 800;
+    color: brown;
+}
+.ptr-line3{
+    height: 3px;
+    width: 200px;
+    background: rgb(229, 95, 95);
+    position: absolute;
+    left: 40%;
+    bottom :-16.5%;
+}
+
+.ptr-line4{
+    height: 3px;
+    width: 200px;
+    background: rgb(229, 95, 95);
+    position: absolute;
+    left: 45%;
+    bottom :-15.75%;
+}
+.ptr-info-data-con{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 20%;
+    align-self: center;
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+.ptr-info-photo-con{
+    height: 300px;
+    width: 450px;
+    margin-right: 25px;
+}
+.ptr-info-photo{
+    height: 300px;
+    width: 450px;
+    border-bottom-left-radius: 60%;
+    border-bottom: 10px solid rgb(75, 75, 221);
+}
+.ptr-info-data{
+    height: 300px;
+}
+.ptr-info-data span{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.ptr-arrow{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 100%;
+    font-weight: 900;
+    margin: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.ptr-certificate-head{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+.ptr-certificate-head p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 800;
+    color: brown;
+   
+}
+.ptr-line5{
+    height: 3px;
+    width: 200px;
+    background: rgb(229, 95, 95);
+    position: absolute;
+    left: 40%;
+    bottom :-89.2%;
+}
+.ptr-line6{
+    height: 3px;
+    width: 200px;
+    background: rgb(229, 95, 95);
+    position: absolute;
+    left: 45%;
+    bottom :-90%;
+}
+.ptr-certificate-con  {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Added to allow cards to wrap to the next line if there isn't enough space */
+    gap: 20px; /* Added to create space between cards */
+}
+
+.card {
+    margin-bottom: 20px; /* Added to create space between rows of cards */
+}
+.ptr-desk-head{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.ptr-desk-head p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 800;
+    color: brown;
+}
+.ptr-desk-con{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Added to allow cards to wrap to the next line if there isn't enough space */
+    gap: 20px; /* Added to create space between cards */
+}
+.ptr-line7{
+    height: 3px;
+    width: 200px;
+    background: rgb(229, 95, 95);
+    position: absolute;
+    left: 40%;
+    bottom :-179.2%;
+}
+
+.ptr-line8{
+    height: 3px;
+    width: 200px;
+    background: rgb(229, 95, 95);
+    position: absolute;
+    left: 45%;
+    bottom :-180%;
+}
+.ptr-footer1 {
+    background-color: rgb(108, 16, 16);
+    height: 100px;
+    width: 100vw;
+    margin-top: 50px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    position: relative;
+    bottom: -280%;
+    left: 0;
+}
+
+.ptr-footer1 p {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 40px;
+    margin-left: 120px;
+}
+
+.ptr-footer2 {
+    background-color: #222;
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.ptr-footer2 h5 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ptr-footer2 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.ptr-footer2 ul li {
+    margin-bottom: 10px;
+}
+
+.ptr-footer2 ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.ptr-footer2 ul li a:hover {
+    color: #007bff;
+}
+
+.ptr-footer2 .fa {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ccc;
+}
